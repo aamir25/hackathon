@@ -120,7 +120,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/h3.jpeg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -129,7 +129,7 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover; }
   header.masthead .intro-text {
-    padding-top: 150px;
+    padding-top: 50px;
     padding-bottom: 100px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 22px;
@@ -138,6 +138,7 @@ header.masthead {
       margin-bottom: 25px;
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
+      text-align: center;
       font-size: 50px;
       font-weight: 700;
       line-height: 50px;
@@ -147,7 +148,7 @@ header.masthead {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
+    padding-top: 100px;
     padding-bottom: 200px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 40px;
@@ -156,6 +157,7 @@ header.masthead {
       margin-bottom: 25px;
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
+      text-align: center;
       font-size: 75px;
       font-weight: 700;
       line-height: 75px;
@@ -442,7 +444,7 @@ header.masthead {
 
 section#register {
   background-color: #222222;
-  background-image: url("../img/map-image.png");
+  background-image: url("");
   background-repeat: no-repeat;
   background-position: center; }
   section#register .section-heading {
